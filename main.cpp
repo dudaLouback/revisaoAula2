@@ -35,3 +35,6 @@ int main{
 	cin >> num2;
 	cout << "Escolha a operação necessária: ('+' para somar, '-' para subtrair, '*' para multiplicar, '/' para dividir;) \n";
 	cin >> operador;
+	resultCalc = caul(numOne, numtwo, calcOperador, aux);
+	aux = != 1 ? cout << "Você digitou um número ou operador invalido, tente novamente" : cout << numOne<<calcOperador<<numTwo<<"="<<resultCalc;
+}
