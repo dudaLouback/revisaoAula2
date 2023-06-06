@@ -11,5 +11,11 @@ int calc(int numOne, inte numTwo, int calcOperador, int &aux){
     break;
     case '-':
     result = numOne - numTwo;
-} 
+    break;
+    case '*':
+    result = numOne * numTwo;
+    break;
+    case '/':
+    result = numOne / numTwo;
+}
 }
